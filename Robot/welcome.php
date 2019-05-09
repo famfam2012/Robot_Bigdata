@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -73,7 +73,7 @@ html, body {
 			<div class="title m-b-md">Robot</div>
 
 			<div class="links">
-				<a id="go_to" href="{{url('locker')}}">Tap to start</a>
+				<a id="go_to" href="robot.php">Tap to start</a>
 
 			</div>
 		</div>
